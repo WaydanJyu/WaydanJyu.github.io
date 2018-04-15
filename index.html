@@ -1,18 +1,41 @@
 <!DOCTYPE html>
 <html>
-<meta charset="UTF-8">
+<head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="/w3css/3/w3.css">
+<style>
+.btn {
+    border: none;
+    color: white;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.success {background-color: #4CAF50;} /* Green */
+.success:hover {background-color: #46a049;}
+
+.info {background-color: #2196F3;} /* Blue */
+.info:hover {background: #0b7dda;}
+
+.warning {background-color: #ff9800;} /* Orange */
+.warning:hover {background: #e68a00;}
+
+.danger {background-color: #f44336;} /* Red */ 
+.danger:hover {background: #da190b;}
+
+.default {background-color: #e7e7e7; color: black;} /* Gray */ 
+.default:hover {background: #ddd;}
+</style>
+</head>
 <body>
 
-<!-- Navigation -->
-<nav class="w3-bar w3-black">
-  <a href="#home" class="w3-button w3-bar-item">Home</a>
-  <a href="#band" class="w3-button w3-bar-item">Band</a>
-  <a href="#tour" class="w3-button w3-bar-item">Tour</a>
-  <a href="#contact" class="w3-button w3-bar-item">Contact</a>
-</nav>
+<h1>Welcome To This Website</h1>
 
-  
+<button class="btn success">Success</button>
+<button class="btn info">Info</button>
+<button class="btn warning">Warning</button>
+<button class="btn danger">Danger</button>
+<button class="btn default">Default</button>
+
 </body>
 </html>
